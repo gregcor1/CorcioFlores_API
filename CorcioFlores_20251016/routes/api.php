@@ -13,3 +13,6 @@ Route::get('/zonas', [ZonaController::class,'obtenerZonas']); //PLURAL
 
 Route::get('/zona/{idzona}', [ZonaController::class,'obtenerZona']); //SINGULAR
 
+Route::get('/zonapais/{idpais}', [ZonaController::class,'obtenerZonaPais']); 
+Route::post('/nuevazona', [ZonaController::class,'obtenerZonaPais']); 
+
